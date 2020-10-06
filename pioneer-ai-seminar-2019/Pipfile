@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+pytest = "*"
+"beautifulsoup4" = "*"
+faker = "*"
+flask = "*"
+jupyter = "*"
+numpy = "*"
+pandas = "*"
+matplotlib = "==3.1.0"
+seaborn = "*"
+scikit-learn = "*"
+pandas-profiling = "*"
+autopep8 = "*"
+yapf = "*"
+xgboost = "*"
+feather-format = "*"
+torch = "*"
+torchvision = "*"
+bhtsne = "*"
+tensorboard = "*"
+opencv-python = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
